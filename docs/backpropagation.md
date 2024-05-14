@@ -9,6 +9,7 @@
 ![](./images/Backward%20Process%205.png)
 ![](./images/Backward%20Process%206.png)
 
+***
 
 #### Show me the Python code of the backpropagation process.
 
@@ -88,7 +89,8 @@ print(predicted_output)
 
 ```
 
+***
+
 #### Q) Please explain the code of the backpropagation process by connecting it with a mathematical formula
 
-#### Q) Dot 연산은 뭔데? 
 

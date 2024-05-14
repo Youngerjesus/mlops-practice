@@ -6,6 +6,7 @@ A Feedforward Neural Network (FNN) is a type of artificial neural network wherei
 
 This is one of the simplest forms of neural network architectures.
 
+***
 
 #### Q) What types of neural network architectures are there? Tell me about the characteristics and purpose of each architecture, when to use it, and how to use it.
 
@@ -134,10 +135,13 @@ Transformers
   - Implement using libraries that support transformers, such as Hugging Face Transformers.
   - Leverage pre-trained models like BERT, GPT, and T5.
 
+***
 
 #### Q) What are convolutional layers and pooling layers of CNNs 
 
 So, convolutional layers are responsible for discovering patterns in input data, creating a feature map, and creating relationships between them, and Pooling Layers are responsible for simplifying and emphasizing these
+
+***
 
 #### Q) Long-term Dependency 문제는 RNN 에서 발생하는 문제야? 이게 뭔데? 
 
@@ -149,6 +153,7 @@ This issue arises when RNNs struggle to learn and retain information over long s
 
 Recurrent Neural Networks (RNNs) are designed to handle sequential data by maintaining a hidden state that evolves as the network processes each element of the sequence. Ideally, RNNs can use this hidden state to capture dependencies between elements far apart in the sequence. However, in practice, this capability is often limited due to the long-term dependency problem.
 
+***
 
 #### Q) Why can the encoder + decoder structure in the autoencoder architecture be used for anomaly detection?
 
@@ -165,6 +170,7 @@ Steps in Anomaly Detection Using Autoencoders
 
 The mechanism of the autoencoder architecture is that the encoder reduces high-dimensional data to a low-dimensional level, extracts only the core of the data, and does the decoder have the ability to create it?
 
+***
 
 #### Q) When solving a problem that requires good prediction of minority classes using machine learning, unsupervised learning such as Autoencoder may be appropriate, right? If the pattern is a bit creative
 
@@ -172,6 +178,7 @@ Autoencoders can identify new, unseen anomalies because they focus on reconstruc
 
 Supervised learning can be quite effective for predicting minority classes if you have labeled data, even though the minority class is underrepresented. However, there are challenges and techniques to address them
 
+***
 
 #### Q) Is the GAN architecture a mechanism in which the generator generates data and the discriminator removes the generated data, thereby generating only real data?
 
@@ -211,6 +218,7 @@ Iterative Process:
 
 So the Generator learns to create fake data that looks like real, and the Discriminator learns to have the ability to distinguish between real and fake data 
 
+***
 
 #### Q) In the case of the difference between supervised learning and unsupervised learning, supervised learning is good at making predictions on data it has learned, but is unsupervised learning better at making predictions on data it has not experienced?
 
